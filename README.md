@@ -184,7 +184,7 @@ Institutions can adopt Noeon to certify trustworthy AI systems, creating standar
 
 - **Credentials:** IT Specialist | Blockchain & AI Researcher | Web Systems Architect
 - **Location:** Cairo, Egypt
-- **Email:** mohekal.dev@gmail.com
+- **Email:** mohamed.k.hekal@gmail.com
 - **LinkedIn:** [linkedin.com/in/mohekal](https://linkedin.com/in/mohekal)
 
 ## 📄 License
@@ -199,7 +199,7 @@ This is a **conceptual and research project**. The ideas and concepts described 
 
 This project is currently in the conceptual and research phase. For collaboration inquiries, licensing requests, or permission to use any part of this project, please contact:
 
-**Email:** mohekal.dev@gmail.com  
+**Email:** mohamed.k.hekal@gmail.com  
 **Subject Line:** "Noeon Collaboration Inquiry"
 
 ## 🌟 Vision Statement
