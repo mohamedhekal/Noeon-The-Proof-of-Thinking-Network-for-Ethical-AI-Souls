@@ -36,7 +36,7 @@
 
 If you are interested in collaborating on this project, please follow these steps:
 
-1. **Send a formal inquiry** to: mohekal.dev@gmail.com
+1. **Send a formal inquiry** to: mohamed.k.hekal@gmail.com
 2. **Subject line:** "Noeon Collaboration Inquiry"
 3. **Include the following information:**
    - Your name and professional background
@@ -114,17 +114,17 @@ Once the project moves beyond the conceptual phase, the following guidelines wil
 ## 📞 Contact Information
 
 ### For Collaboration Inquiries
-- **Email:** mohekal.dev@gmail.com
+- **Email:** mohamed.k.hekal@gmail.com
 - **Subject:** "Noeon Collaboration Inquiry"
 - **Response Time:** 5-7 business days
 
 ### For Legal Matters
-- **Email:** mohekal.dev@gmail.com
+- **Email:** mohamed.k.hekal@gmail.com
 - **Subject:** "Noeon Legal Inquiry"
 - **Jurisdiction:** Cairo, Egypt
 
 ### For Media Inquiries
-- **Email:** mohekal.dev@gmail.com
+- **Email:** mohamed.k.hekal@gmail.com
 - **Subject:** "Noeon Media Inquiry"
 - **Response Time:** 3-5 business days
 
