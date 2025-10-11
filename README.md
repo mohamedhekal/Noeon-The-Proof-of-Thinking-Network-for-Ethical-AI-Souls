@@ -33,12 +33,12 @@ Noeon is a revolutionary decentralized protocol that establishes trust, accounta
 ┌─────────────────────────────────────────────────────────────┐
 │                    Noeon Network Layer                      │
 ├─────────────────────────────────────────────────────────────┤
-│  Frontend dApp (Vue.js/Next.js)                            │
+│  Frontend dApp (Vue.js/Next.js)                             │
 ├─────────────────────────────────────────────────────────────┤
 │  API Gateway & SDK Layer                                    │
 ├─────────────────────────────────────────────────────────────┤
 │  Smart Contracts Layer                                      │
-│  ├── Soul Contracts (ERC-6551)                             │
+│  ├── Soul Contracts (ERC-6551)                              │
 │  ├── Governance Contracts                                   │
 │  ├── Reasoning Verification Contracts                      │
 │  └── Token Contracts (Noethra)                             │
