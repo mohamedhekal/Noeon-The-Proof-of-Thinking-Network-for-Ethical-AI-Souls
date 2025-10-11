@@ -1,6 +1,6 @@
 # Contributing to Noeon
 
-## 🚨 Important Notice
+##  🚨 Important Notice
 
 **Noeon is currently in the conceptual and research phase.** This project represents the exclusive intellectual property of Mohamed Khaled Ahmed Hamad. All concepts, ideas, and technical specifications are protected under intellectual property laws.
 
