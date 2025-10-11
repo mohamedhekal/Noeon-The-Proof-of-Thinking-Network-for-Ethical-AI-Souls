@@ -4,7 +4,7 @@
 **Founder & Concept Creator of Noeon**  
 **IT Specialist | Blockchain & AI Researcher | Web Systems Architect**  
 📍 Cairo, Egypt  
-📧 mohamed.k.hekal@gmail.com  
+📧  mohamed.k.hekal@gmail.com  
 🔗 LinkedIn: linkedin.com/in/mohekal  
 
 **Date:** October 2025  
