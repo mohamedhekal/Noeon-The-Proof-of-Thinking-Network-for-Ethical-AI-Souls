@@ -148,7 +148,7 @@ Noeon/
 **Mohamed Khaled Ahmed Hamad**  
 *Founder & Concept Creator*
 
-- **Email:** mohekal.dev@gmail.com
+- **Email:** mohamed.k.hekal@gmail.com
 - **LinkedIn:** linkedin.com/in/mohekal
 - **Location:** Cairo, Egypt
 - **Credentials:** IT Specialist | Blockchain & AI Researcher | Web Systems Architect
