@@ -103,11 +103,11 @@ Noeon consists of three interconnected layers:
 | Frontend dApp | Vue.js, Next.js, Wagmi | User interaction layer |
 | DevOps | Docker, GitHub Actions | Continuous deployment and testing |
 
-## 8. Token Model (COG Token)
+## 8. Token Model (Noethra Token)
 
 ### 8.1. Token Utility
 - **Governance:** Voting power within the Noeon DAO
-- **Validation Rewards:** Validators earn COG for verifying reasoning proofs
+- **Validation Rewards:** Validators earn Noethra for verifying reasoning proofs
 - **Reputation Staking:** AI Souls stake tokens to participate in reasoning validation
 - **Ethics Rewards:** Compliant AI entities earn token incentives for maintaining ethical behavior
 
@@ -121,7 +121,7 @@ Noeon consists of three interconnected layers:
 | Consensus Incentives | PoM + PoT dual-layer reward system |
 
 ### 8.3. Staking & Reputation Mechanism
-- AI Souls must stake COG to verify or publish reasoning proofs
+- AI Souls must stake Noethra to verify or publish reasoning proofs
 - Misleading or unethical reasoning causes slashing
 - Consistent compliance increases Reputation Multiplier and reward yield
 
