@@ -1,0 +1,105 @@
+name: Branch Protection and Pull Request Validation
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  validate-pr:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Validate PR Requirements
+      run: |
+        echo "🔍 Validating Pull Request Requirements..."
+        
+        # Check if PR is from a feature branch
+        if [[ "${{ github.head_ref }}" == "main" ]]; then
+          echo "❌ Direct pushes to main branch are not allowed"
+          echo "Please create a feature branch and submit a pull request"
+          exit 1
+        fi
+        
+        # Check if PR has proper title format
+        if [[ ! "${{ github.event.pull_request.title }}" =~ ^(feat|fix|docs|style|refactor|test|chore|legal): ]]; then
+          echo "❌ PR title must follow conventional commit format"
+          echo "Examples: feat: Add new feature, fix: Resolve bug, docs: Update documentation"
+          exit 1
+        fi
+        
+        # Check if PR has description
+        if [[ -z "${{ github.event.pull_request.body }}" ]]; then
+          echo "❌ Pull request must include a description"
+          exit 1
+        fi
+        
+        echo "✅ Pull request validation passed"
+        
+    - name: Check File Changes
+      run: |
+        echo "📋 Checking file changes..."
+        
+        # Get list of changed files
+        changed_files=$(git diff --name-only HEAD~1 HEAD)
+        
+        # Check for sensitive files
+        sensitive_files=("LEGAL_NOTICE.md" "LICENSE" "WHITEPAPER.md")
+        
+        for file in "${sensitive_files[@]}"; do
+          if echo "$changed_files" | grep -q "$file"; then
+            echo "⚠️  Warning: Changes detected in sensitive file: $file"
+            echo "Please ensure all changes are authorized by the project owner"
+          fi
+        done
+        
+        echo "✅ File change validation completed"
+
+  protect-main:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: Block Direct Push to Main
+      run: |
+        echo "🚫 Direct pushes to main branch are blocked!"
+        echo "Please create a feature branch and submit a pull request instead"
+        echo "Only the repository owner can merge pull requests to main"
+        exit 1
+
+  security-check:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Security and Legal Compliance Check
+      run: |
+        echo "🔒 Running security and legal compliance checks..."
+        
+        # Check for any unauthorized modifications to legal documents
+        legal_files=("LEGAL_NOTICE.md" "LICENSE" "CONTRIBUTING.md")
+        
+        for file in "${legal_files[@]}"; do
+          if git diff --name-only HEAD~1 HEAD | grep -q "$file"; then
+            echo "⚠️  Legal document modified: $file"
+            echo "Please ensure all legal changes are approved by Mohamed Khaled Ahmed Hamad"
+            echo "Contact: mohamed.k.hekal@gmail.com"
+          fi
+        done
+        
+        # Check for intellectual property compliance
+        if git diff --name-only HEAD~1 HEAD | grep -q "WHITEPAPER.md"; then
+          echo "⚠️  Whitepaper modified - IP protection notice"
+          echo "All technical concepts are protected intellectual property"
+          echo "Unauthorized use is strictly prohibited"
+        fi
+        
+        echo "✅ Security and legal compliance check completed"
