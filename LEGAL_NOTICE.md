@@ -1,6 +1,6 @@
 # LEGAL NOTICE & INTELLECTUAL PROPERTY PROTECTION
 
-## COPYRIGHT NOTICE
+##  COPYRIGHT NOTICE
 © 2025 Mohamed Khaled Ahmed Hamad. All rights reserved.
 
 **AUTHOR & FOUNDER:**
