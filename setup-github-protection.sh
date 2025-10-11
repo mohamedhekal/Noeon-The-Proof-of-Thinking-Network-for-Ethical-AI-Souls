@@ -5,7 +5,7 @@
 # Email: mohamed.k.hekal@gmail.com
 
 echo "🛡️  Setting up Noeon Repository Protection..."
-echo "=============================================="
+echo "==============================================="
 
 # Check if GitHub CLI is installed
 if ! command -v gh &> /dev/null; then
