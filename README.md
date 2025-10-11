@@ -41,7 +41,7 @@ Noeon is a revolutionary decentralized protocol that establishes trust, accounta
 │  ├── Soul Contracts (ERC-6551)                             │
 │  ├── Governance Contracts                                   │
 │  ├── Reasoning Verification Contracts                      │
-│  └── Token Contracts (COG)                                 │
+│  └── Token Contracts (Noethra)                             │
 ├─────────────────────────────────────────────────────────────┤
 │  Zero-Knowledge Proof Layer                                 │
 │  ├── zk-SNARK Circuits                                     │
@@ -111,17 +111,17 @@ Institutions can adopt Noeon to certify trustworthy AI systems, creating standar
 | **Frontend dApp** | Vue.js, Next.js, Wagmi | User interaction layer |
 | **DevOps** | Docker, GitHub Actions | Continuous deployment and testing |
 
-## 🪙 Token Economics (COG Token)
+## 🪙 Token Economics (Noethra Token)
 
 ### Token Utility
 - **Governance:** Voting power within the Noeon DAO
-- **Validation Rewards:** Validators earn COG for verifying reasoning proofs
+- **Validation Rewards:** Validators earn Noethra for verifying reasoning proofs
 - **Reputation Staking:** AI Souls stake tokens to participate in reasoning validation
 - **Ethics Rewards:** Compliant AI entities earn token incentives for maintaining ethical behavior
 
 ### Tokenomics Overview
-- **Token Name:** Noeon Token (COG)
-- **Total Supply:** 1,000,000,000 COG
+- **Token Name:** Noeon Token (Noethra)
+- **Total Supply:** 1,000,000,000 Noethra
 - **Distribution:** 40% Validators, 20% Treasury, 20% R&D, 10% Team, 10% Community
 - **Consensus Incentives:** PoM + PoT dual-layer reward system
 

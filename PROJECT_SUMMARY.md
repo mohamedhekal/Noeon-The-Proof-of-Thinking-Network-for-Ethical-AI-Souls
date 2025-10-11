@@ -40,7 +40,7 @@ Noeon/
 - ✅ **AI Soul Identity** system (SoulSync)
 - ✅ **Proof-of-Morality (PoM)** consensus mechanism
 - ✅ **Noeon blockchain architecture**
-- ✅ **COG token model and tokenomics**
+- ✅ **Noethra token model and tokenomics**
 - ✅ **All technical specifications and methodologies**
 
 ### Legal Documents Created
@@ -60,7 +60,7 @@ Noeon/
 ### Technical Specifications
 - ✅ **System Architecture** - 6-layer technical stack
 - ✅ **Technology Stack** - Complete technology matrix
-- ✅ **Token Economics** - COG token model and utility
+- ✅ **Token Economics** - Noethra token model and utility
 - ✅ **Use Cases** - 5 primary application areas
 - ✅ **Security Framework** - Privacy and security measures
 
@@ -108,9 +108,9 @@ Noeon/
 | Frontend | Vue.js, Next.js | User interface |
 | DevOps | Docker, GitHub Actions | Deployment |
 
-## 🪙 Token Model (COG)
+## 🪙 Token Model (Noethra)
 
-- **Total Supply:** 1,000,000,000 COG
+- **Total Supply:** 1,000,000,000 Noethra
 - **Distribution:** 40% Validators, 20% Treasury, 20% R&D, 10% Team, 10% Community
 - **Utility:** Governance, validation rewards, reputation staking, ethics rewards
 

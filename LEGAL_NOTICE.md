@@ -20,7 +20,7 @@ This project, including but not limited to:
 - The "Proof-of-Morality (PoM)" consensus mechanism
 - The Noeon blockchain architecture
 - All technical specifications, algorithms, and methodologies
-- The COG token model and tokenomics
+- The Noethra token model and tokenomics
 - All documentation, whitepapers, and technical papers
 
 **ARE THE EXCLUSIVE INTELLECTUAL PROPERTY OF MOHAMED KHALED AHMED HAMAD**

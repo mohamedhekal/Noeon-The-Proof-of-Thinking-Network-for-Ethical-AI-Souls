@@ -96,7 +96,7 @@
 - [ ] Create reputation-based access controls
 
 #### Staking & Slashing
-- [ ] Implement COG token staking mechanisms
+- [ ] Implement Noethra token staking mechanisms
 - [ ] Create slashing conditions for unethical behavior
 - [ ] Design reputation multiplier system
 - [ ] Implement reward distribution algorithms
@@ -241,7 +241,7 @@
 │  ├── Soul Contracts (ERC-6551)                             │
 │  ├── Governance Contracts                                   │
 │  ├── Reasoning Verification Contracts                      │
-│  └── Token Contracts (COG)                                 │
+│  └── Token Contracts (Noethra)                             │
 ├─────────────────────────────────────────────────────────────┤
 │  Zero-Knowledge Proof Layer                                 │
 │  ├── zk-SNARK Circuits                                     │
@@ -338,7 +338,7 @@ noeon/
 
 ### Economic Metrics
 - Total value locked (TVL) in staking
-- COG token market cap
+- Noethra token market cap
 - Validator network size
 - Cross-chain transaction volume
 

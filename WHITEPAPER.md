@@ -115,8 +115,8 @@ Noeon consists of three interconnected layers:
 
 | Parameter | Value |
 |-----------|-------|
-| Token Name | Noeon Token (COG) |
-| Total Supply | 1,000,000,000 COG |
+| Token Name | Noeon Token (Noethra) |
+| Total Supply | 1,000,000,000 Noethra |
 | Distribution | 40% Validators, 20% Treasury, 20% R&D, 10% Team, 10% Community |
 | Consensus Incentives | PoM + PoT dual-layer reward system |
 
