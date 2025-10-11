@@ -62,14 +62,14 @@ jobs:
 
   protect-main:
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.actor != 'mohamedhekal'
     
     steps:
-    - name: Block Direct Push to Main
+    - name: Block Direct Push to Main (Non-Owner)
       run: |
-        echo "🚫 Direct pushes to main branch are blocked!"
+        echo "🚫 Direct pushes to main branch are blocked for non-owners!"
         echo "Please create a feature branch and submit a pull request instead"
-        echo "Only the repository owner can merge pull requests to main"
+        echo "Only the repository owner (mohamedhekal) can push directly to main"
         exit 1
 
   security-check:
