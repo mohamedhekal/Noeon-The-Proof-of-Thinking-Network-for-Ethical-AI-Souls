@@ -8,7 +8,7 @@
 - **Title:** Founder & Concept Creator of Noeon
 - **Credentials:** IT Specialist | Blockchain & AI Researcher | Web Systems Architect
 - **Location:** Cairo, Egypt
-- **Email:** mohekal.dev@gmail.com
+- **Email:** mohamed.k.hekal@gmail.com
 - **LinkedIn:** linkedin.com/in/mohekal
 
 ## INTELLECTUAL PROPERTY RIGHTS
@@ -62,7 +62,7 @@ Any violation of these intellectual property rights will be pursued through:
 
 ### CONTACT FOR PERMISSIONS
 For licensing inquiries, collaboration requests, or permission to use any part of this project:
-- **Email:** mohekal.dev@gmail.com
+- **Email:** mohamed.k.hekal@gmail.com
 - **Subject Line:** "Noeon IP Licensing Inquiry"
 
 ### JURISDICTION
