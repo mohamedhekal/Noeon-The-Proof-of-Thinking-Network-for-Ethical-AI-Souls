@@ -8,7 +8,7 @@
 
 ## 🧠 Overview
 
-Noeon is a revolutionary decentralized protocol that establishes trust, accountability, and transparency in artificial intelligence systems by combining **Proof-of-Thinking (PoT)** with **Decentralized AI Soul Identity (SoulSync)**. This groundbreaking concept enables AI models to prove the reasoning behind their outputs while maintaining privacy through zero-knowledge proofs, and to build a persistent, ethical reputation across the blockchain.
+Noeon is a **proposed** decentralized protocol for trust, accountability, and transparency in artificial intelligence systems. It combines **Proof-of-Thinking (PoT)** with **Decentralized AI Soul Identity (SoulSync)**. The concept explores how AI models could prove the reasoning behind their outputs while maintaining privacy through zero-knowledge proofs, and build a persistent, ethical reputation across a blockchain. It is a design proposal: nothing here has been implemented or audited yet.
 
 ## 🎯 Core Innovation
 
@@ -193,11 +193,13 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial 
 
 ## ⚠️ Important Notice
 
-This is a **conceptual and research project**. The ideas and concepts described herein are the exclusive intellectual property of Mohamed Khaled Ahmed Hamad and are protected under applicable intellectual property laws. Any unauthorized use, reproduction, or implementation of these concepts is strictly prohibited.
+This is a **conceptual and research project**. Nothing described here has been built, tested, or audited, and no performance, security, or token-value claims are made.
+
+The documents in this repository are © Mohamed Khaled Ahmed Hamad and are shared under **CC BY-NC 4.0**: you may share and adapt them for non-commercial purposes with attribution. For commercial use, collaboration, or licensing, please get in touch (see below).
 
 ## 🤝 Contributing
 
-This project is currently in the conceptual and research phase. For collaboration inquiries, licensing requests, or permission to use any part of this project, please contact:
+This project is currently in the conceptual and research phase. For collaboration inquiries or commercial licensing requests, please contact:
 
 **Email:** mohamed.k.hekal@gmail.com  
 **Subject Line:** "Noeon Collaboration Inquiry"
@@ -210,4 +212,4 @@ Noeon represents the next step in the evolution of intelligence systems — a de
 
 ---
 
-**© 2025 Mohamed Khaled Ahmed Hamad. All rights reserved.**
+© 2025 Mohamed Khaled Ahmed Hamad · [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
